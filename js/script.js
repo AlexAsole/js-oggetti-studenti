@@ -34,9 +34,11 @@ for (var key in alex) {
 /*Creare un array di oggetti di studenti.
  Ciclare su tutti gli studenti e stampare per ognuno nome e cognome*/
  for (var i = 0; i < studenti.length; i++) {
-   for (var key in studenti[i]) {
-     if(key !== 'età'){
-       console.log(studenti[i][key]);
-     }
-   }
+   // for (var key in studenti[i]) {
+   //   if(key !== 'età'){
+   //     console.log(studenti[i][key]);
+   //   }
+   // }
+   console.log(studenti[i].nome)
+   console.log(studenti[i].cognome)
  }
